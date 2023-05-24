@@ -1,0 +1,35 @@
+:root {
+    --jet: #2a2b2aff;
+    --dim-gray: #706c61ff;
+    --pearl: #e5dcc5ff;
+    --periwinkle: #dac4f7ff;
+    --mauve: #baa5ffff;
+    --smoke: #f5f5f5ff;
+  }
+
+body {
+    margin: 0;
+    background-color: var(--jet);
+    color: var(--pearl);
+}
+
+.start-container {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+.form-control {
+    background-color: var(--smoke);
+    color: var(--pearl);
+  }
+
+.btn {
+    background-color: var(--periwinkle);
+    color: var(--jet);
+  }
+
+.btn:hover {
+    background-color: var(--mauve);
+    color: var(--jet);
+  }
