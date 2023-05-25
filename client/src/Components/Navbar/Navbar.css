@@ -1,0 +1,54 @@
+:root {
+    --jet: #2a2b2aff;
+    --dim-gray: #706c61ff;
+    --pearl: #e5dcc5ff;
+    --periwinkle: #dac4f7ff;
+    --mauve: #baa5ffff;
+  }
+
+.navbar-container {
+    background-color: var(--dim-gray);  /* background color of navbar */
+    height: 100vh;
+    padding: 1rem;
+  }
+  
+  .navbar-container .nav-link {
+    color: var(--pearl);  /* link color */
+    font-size: 1.2rem;  /* font size */
+    text-decoration: none;  /* removes default link underlining */
+    font-weight: normal;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    transition: background-color 0.2s; /* smooth background color change on hover */
+  }
+  
+   .route-link:hover {
+    background-color: var(--pearl);  /* hover color */
+    color: var(--dim-gray);
+  }
+  
+  .navbar-container .nav-link.title-link {
+    font-size: 1.6rem;  /* font size of logo */
+    font-weight: bold;  /* bold font for logo */
+    color: var(--pearl);
+    margin-bottom: 2rem; /* extra space below logo */
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navbar-container .title-link:hover {
+    color: var(--mauve);
+    transform: scale(1.2);
+  }
+
+
+  .navbar-container .logout-link {
+    color: var(--pearl);
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navbar-container .logout-link:hover {
+    color: salmon;
+    transform: scale(1.2);
+  }
+  
